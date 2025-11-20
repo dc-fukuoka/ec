@@ -57,6 +57,7 @@ print(f"Elliptic curve: y^2 = x^3 + x + 1 over F_{p}")
 print(f"Base point G = {G}")
 for i, P in enumerate(multiples, 1):
     print(f"{i}*G = {P}")
+print("...")
 
 # Q = d * G
 # Q: public key
