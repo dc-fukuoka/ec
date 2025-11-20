@@ -40,7 +40,7 @@ def point_add(P, Q):
 
     lam = (num * den_inv) % p
 
-    x3 = (lam * lam - x1 - x2) % p
+    x3 = (lam**2 - x1 - x2) % p
     y3 = (lam * (x1 - x3) - y1) % p
 
     return (x3, y3)
